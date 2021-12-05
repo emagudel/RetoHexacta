@@ -1,15 +1,15 @@
-# Automatización de Pruebas para la aplicacion Back Factor
+# Automatización de Pruebas para la aplicacion de Hexacta
 ### Descripción y contexto
 ---
 
-Podrás realizar busquedas de las publicaciones de los autores del Blog de BlankFactor, ademas  conocer nuestros productos y servicios, de una manera fácil y segura. Solo necesitas un computador con conexión a Internet y lo tendrás todo a tu alcance. A toda hora y en todo momento.
+Podrás realizar xxxxxxxxxx, ademas  conocer nuestros productos y servicios, de una manera fácil y segura. Solo necesitas un computador con conexión a Internet y lo tendrás todo a tu alcance. A toda hora y en todo momento.
 
-Para ejecutar las historia de usuario se puede de forma general a travez de la clase "GeneralTestRunner" que se encuentra en la ruta "src/test/java/com/company/certification/blankFactor/runners/GeneralTestRunner.java", o puedes ejecutar las historias
-por cada runner especifico, la rita de cada clase runner es la siguiente: "src/test/java/com/company/certification/blankFactor/runners/"
+Para ejecutar las historia de usuario se puede de forma general a travez de la clase "GeneralTestRunner" que se encuentra en la ruta "src/test/java/com/company/certification/hexacta/runners/GeneralTestRunner.java", o puedes ejecutar las historias
+por cada runner especifico, la rita de cada clase runner es la siguiente: "src/test/java/com/company/certification/hexacta/runners/"
 
 ####**Estamos a tu alcance estés donde estés**
-Accede a nuestra pagina desde donde quieras, y realiza tus consultas de las publicaciones de nuestro Blog sin moverte de tu casa u oficina.  
-Servicio ofrecido por BlackFactor.
+Accede a nuestra pagina desde donde quieras y utiliza nuestros servicios sin moverte de tu casa u oficina.  
+Servicio ofrecido por Hexacta.
 
 ### Resumen de codificación
 ---
@@ -23,7 +23,7 @@ gradle clean test --tests "RUTA DEL RUNNER" aggregate -i
 
 Ejemplo: 
 
-gradle clean test --tests com.company.certification.blankFactor.runners.SearchBlogsTestRunner aggregate -i
+gradle clean test --tests com.company.certification.hexacta.runners.History_01TestRunner aggregate -i
 
 
 ### El framework
