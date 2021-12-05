@@ -1,7 +1,7 @@
 Feature: Search the Hexacta page the information required
 
 
-  Scenario Outline: Search the Hexacta page the information 
+  Scenario Outline: Search the Hexacta page the information
     Given I visit the test page
     When I search in the application for a value with this information
       | ID   | topic   | written_by   | expectedResult   | currentUrl   |
